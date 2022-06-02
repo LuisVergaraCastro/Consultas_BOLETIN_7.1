@@ -1,12 +1,14 @@
 --Lenguaje SQL. Consultas
 --Escribe el código SQL necesario para realizar las siguientes operaciones sobre la base de datos
 --“NorthWind”
-
+USE Northwind
 --De la 1 a la 7 se pueden hacer sin usar funciones de agregados.
 
 --Consultas sobre una sola Tabla
 --1. Nombre de la compañía y dirección completa (dirección, cuidad, país) de todos los
 --clientes que no sean de los Estados Unidos.
+SELECT *
+FROM 
 
 --2. La consulta anterior ordenada por país y ciudad.
 --3. Nombre, Apellidos, Ciudad y Edad de todos los empleados, ordenados por antigüedad en
